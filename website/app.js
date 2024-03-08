@@ -39,9 +39,6 @@ function PageTransitions() {
     themeBtn.addEventListener('click',() =>{
         let element = document.body;
         element.classList.toggle('light-mode');
-        
-        // themeIcon.i.classList.toggle('fa-toggle-off');
-        // themeIcon.i.classList.toggle('fa-toggle-on');
     })
 }
 
